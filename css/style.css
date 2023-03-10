@@ -4,18 +4,13 @@ header{
   height: 80px;
 }
 
-footer{
-  height: 300px;
-}
+.sp-jumbotron{
+  margin-top: 80px;
+} 
 
 .debug{
   background-color: rgba(100, 148, 237, 0.362);
   border: 1px solid black;
   min-height: 200px;
 }
-
-.sp-jumbotron{
-  margin-top: 80px;
-} 
-
 

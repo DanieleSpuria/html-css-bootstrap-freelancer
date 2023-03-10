@@ -1,0 +1,34 @@
+/* DEBUG */
+
+header{
+  height: 80px;
+}
+
+footer{
+  height: 300px;
+}
+
+.debug{
+  background-color: rgba(100, 148, 237, 0.362);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.sp-jumbotron{
+  height: 500px;
+  margin-top: 80px;
+}
+
+.sp-portfolio{
+  height: 600px;
+}
+
+.sp-about{
+  height: 400px;
+}
+
+.sp-contact{
+  height: 500px;
+}
+
+/* DEBUG */

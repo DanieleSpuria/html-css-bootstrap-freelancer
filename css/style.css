@@ -81,3 +81,28 @@ header{
 
 
 
+
+/* FOOTER */
+footer{
+  color: white;
+}
+
+.ds-top{
+  background-color: #3a546d;
+}
+
+.ds-a{
+  color: #1abc9c;
+}
+
+.ds-a:hover{
+  color: white;
+}
+
+.ds-bottom{
+  background-color: #2c3e50;
+}
+
+
+
+

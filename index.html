@@ -6,42 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.js' integrity='sha512-L6XANV6sOsx9N9c787eDN1pjB2Pzautd3xDgn4cMKuoleHSuCJi5pCDGPCtwE3Bd4A1Olnr0k0aQXbczYzg+wg==' crossorigin='anonymous'></script>
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
 
   <link rel="stylesheet" href="css/style.css">
   <title>Freelance</title>
 </head>
 <body>
-  <header class="fixed-top border-bottom border-dark">
-    <div class="container-sm h-100">
-      <div class="row h-100">
-        <div class="col">LOGO</div>
-        <div class="col text-end d-none d-sm-block">MENU</div>
-        <div class="col text-end d-sm-none">H</div>
-      </div>
+  <header class="fixed-top d-flex align-items-center border-bottom border-dark">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   </header>
 
 
 
-  <div class="sp-jumbotron debug">
-    <div class="container-sm">
-      <div class="row flex-column align-items-center text-center py-4">
-        <div class="col">
-          IMG
+  <div class="ds-jumbotron ds-background-color">
+    <div class="container text-center py-4">
+      
+        <div>
+          <img src="img/avatar.svg" alt="img">
         </div>
         
-        <div class="col">
+        <div class="mt-2">
           <h1>START BOOTSTRAP</h1>
         </div>
 
-        <div class="col w-25">
-          <hr>
+        <div class="d-flex justify-content-center align-items-center w-100 my-3">
+          <div class="ds-line mx-2"></div>
+          <i class="fa-solid fa-star fs-4"></i>
+          <div class="ds-line mx-2"></div>
         </div>
 
-        <div class="col">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ratione?
+        <div>
+          <p class="fs-6">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>  
         </div>
-      </div>
+      
     </div>
   </div>
 
@@ -75,7 +96,7 @@
 
 
 
-    <section class="sp-about debug">
+    <section class="sp-about ds-background-color debug">
       <div class="container-sm">
         <div class="row flex-column  align-items-center text-center py-4 px-5">
           <div class="col">

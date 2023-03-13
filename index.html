@@ -15,28 +15,27 @@
 </head>
 <body>
   <header class="fixed-top d-flex align-items-center border-bottom border-dark">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
+    <div class="container ds-nav">
+      <div class="row justify-content-between align-items-center">
+        <div class="col">
+          <h2>Start Bootstrap</h2>
         </div>
-      </nav>
+
+        <div class="col text-end d-lg-none">
+          <button class="ds-nav-button fs-4 rounded-2 py-1 px-2"> 
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="col text-end d-none d-lg-block">
+          <a class="text-decoration-none ds-nav" href="#">PORTFOLIO</a>
+          <a class="text-decoration-none ds-nav px-4" href="#">ABOUT</a>
+          <a class="text-decoration-none ds-nav" href="#">CONTACT</a>
+        </div>
+      </div>
+      
+
+      
     </div>
   </header>
 

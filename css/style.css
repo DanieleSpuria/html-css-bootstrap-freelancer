@@ -63,9 +63,39 @@ header{
 
 
 
+
 /* MAIN */
 .ds-portfolio{
   color: #2d3f51;;
+}
+
+.ds-card{
+  position: ;
+}
+
+.ds-overlay::after{
+  display: none;
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  opacity: .5;
+}
+
+.ds-card i{
+  font-size: 60px;
+  color:white;
+  display: none;
+  z-index: 1;
+}
+
+.ds-overlay:hover i,
+.ds-overlay:hover::after{
+  display: block;
 }
 
 .ds-about{

@@ -131,6 +131,11 @@ footer{
   background-color: #3a546d;
 }
 
+.ds-circle{
+  width: 60px;
+  height: 60px;
+}
+
 .ds-a{
   color: #1abc9c;
 }
